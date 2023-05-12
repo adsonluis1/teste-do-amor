@@ -3,7 +3,7 @@ function enviar(){
 var nome = document.getElementById('inome')
 var tela = document.getElementById('tela')
 
-    if(nome == 'Anne Rafaelle Matias Dos Santos'){
+    if(nome != 'Anne Rafaelle Matias Dos Santos'){
         p2.style.display= 'block'
         p1.style.display= 'none'
 
