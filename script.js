@@ -3,12 +3,12 @@ function enviar(){
 var nome = document.getElementById('inome')
 var tela = document.getElementById('tela')
 
-    if(nome = 'Anne Rafelle Matias Dos Santos'){
+    if(nome == 'Anne Rafelle Matias Dos Santos'){
         p2.style.display= 'block'
         p1.style.display= 'none'
 
     }else{
-        tela.innerHTML= 'vc nn é meu xuxuzinho'
+        tela.innerHTML= 'vc nn é meu xuxuzinho [PERIGO]'
     }
 }
 
