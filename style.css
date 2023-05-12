@@ -1,0 +1,95 @@
+@charset 'UTF-8'; 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*font-family: 'Press Start 2P', cursive; letra estilo jogo*/ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/vetores-premium/emoji-valentines-casal-design-de-conceito-vetorial-emojis-3d-inlove-personagens-com-ser-meu-namorado_572293-1252.jpg);
+}
+
+header{
+    
+    background-color: rgba(255, 255, 255, 0.562);;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    
+}
+h1{
+    font-family:'Press Start 2P', cursive;
+    font-size: 1.5em;
+    color: red;
+    text-align: center;
+}
+h2{
+    font-family:'Press Start 2P', cursive;
+    color: red;
+    font-size: 1em;
+}
+#pequeno{
+    font-size: 0.7em;
+}
+main{
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.562);
+    width: 90%;
+    padding: 10px;
+    color: red;
+}
+#pai{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50% , -50%);
+}
+.enviar{
+    display: block;
+    background-color: white;
+    padding: 1px;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;   
+}
+.enviar:hover{
+    transition: 1.5s;
+    padding: 5px;
+    background-color: red;
+    font-weight:bold ;
+    color: white;
+}
+
+#p2{
+    display: none;
+}
+
+#e2{
+    display: none;
+}
+
+h3{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#titulo{
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+#presente{
+    display: none;
+}
